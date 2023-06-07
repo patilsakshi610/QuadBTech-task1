@@ -1,3 +1,6 @@
+* {
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+.input-div {
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 0px 10px;
+  overflow: hidden;
+}
+
+.input-div > label {
+  overflow: hidden;
+  color: #a39f9f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.input-div > input {
+  margin: 5px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input-div > button {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  box-shadow: 0 1px 8px #cecdcc;
+  border: none;
+  color: #ffc300;
+  background-color: #fffc;
+  position: sticky;
+}
+.input-div > button:hover {
+  background-color: #ffc300;
+  color: #fffc;
 }

@@ -1,0 +1,38 @@
+.btn-ticket {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  box-shadow: 0 1px 8px #cecdcc;
+  border: none;
+  color: #ffc300;
+  background-color: #fffc;
+  position: sticky;
+}
+
+.btn-ticket:hover {
+  background-color: #ffc300;
+  color: #fffc;
+}
+.sum-img {
+  width: 100px;
+  height: 150px;
+  background-color: black;
+  overflow-y: hidden;
+  align-self: center;
+}
+.sum-img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.sum-txt {
+  height: auto;
+  overflow: hidden;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #a7a7a7;
+  justify-content: start;
+}
