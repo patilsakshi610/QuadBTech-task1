@@ -5,7 +5,7 @@ import Card from "./Componets/Cards/Card.js";
 import { AppState } from "./Context/Appstate.js";
 import Summary from "./Componets/Summary/Summary";
 import Header from "./Componets/Header/Header";
-import Form from "./Componets/Form/Form";
+import Footer from "./Componets/Footer/Footer.js";
 
 function App() {
   const [data, setData] = useState();
@@ -39,6 +39,7 @@ function App() {
       })}
 
       {showSum && <Summary name={name} summary={summary} image={image} />}
+      <Footer />
     </AppState.Provider>
   );
 }
